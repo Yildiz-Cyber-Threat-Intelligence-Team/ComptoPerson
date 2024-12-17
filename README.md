@@ -29,7 +29,7 @@ Ana dosyayı çalıştırmak için aşağıdaki komutu terminalde kullanın:
 ### Şirket Adı Girişi
 - Proje çalıştırıldığında, terminal üzerinden aramak istediğiniz şirketin adını girmeniz istenecektir. 
 - Şirket adı birden fazla kelimeden oluşuyorsa, kelimeler arasında `-` kullanmalısınız. 
-   - Örnekler:  google-cloud 
+   - Örnek:  google-cloud 
 
 ### Botun Çalışması
 - Bot, LinkedIn'e otomatik olarak giriş yaptıktan sonra, seçtiğiniz şirketin sayfasına gider. 
