@@ -56,7 +56,7 @@ Gerekli adımlar ekran resmi olarak aşağıda yer almaktadır.
 4.
 ![4](https://github.com/user-attachments/assets/744a59c5-18b3-4ffd-b190-e87103507e5b)
 
-#EN
+# EN
 This project aims to collect employee information of a selected company from LinkedIn and export it to a .txt file.
 
 ## Features
