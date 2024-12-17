@@ -10,4 +10,42 @@ Bu proje, seçilen bir şirketin çalışan bilgilerini LinkedIn üzerinden topl
 - Seçilen şirketin çalışanlarının isim, iş unvanı ve lokasyon bilgilerini toplar.   
 - Verileri ‘employees_info.txt’ dosyasına kaydeder.   
 
-## Kurulum
+## Kod Açıklaması
+### Gereksinimler
+- Python 3.9.12 veya daha yeni bir sürümünün bilgisayarınızda yüklü olması gerekmektedir. 
+- Ayrıca, Playwright kütüphanesinin kurulması gereklidir. Playwright, tarayıcı otomasyonu için kullanılan bir Python kütüphanesidir. Yüklemek için şu komutları kullanabilirsiniz: 
+     pip install playwright 
+     playwright install 
+
+### LinkedIn Giriş Bilgileri
+- LinkedIn hesabınıza giriş yapmak için `config.py` dosyasını düzenlemeniz gerekmektedir. Bu dosyaya LinkedIn kullanıcı adı (email) ve şifrenizi ekleyin: 
+     LINKEDIN_USERNAME = "email_adresiniz" 
+     LINKEDIN_PASSWORD = "şifreniz"
+
+### Çalıştırma
+Ana dosyayı çalıştırmak için aşağıdaki komutu terminalde kullanın:   
+   python main.py 
+
+### Şirket Adı Girişi
+- Proje çalıştırıldığında, terminal üzerinden aramak istediğiniz şirketin adını girmeniz istenecektir. 
+- Şirket adı birden fazla kelimeden oluşuyorsa, kelimeler arasında `-` kullanmalısınız. 
+   - Örnekler:  google-cloud 
+
+### Botun Çalışması
+- Bot, LinkedIn'e otomatik olarak giriş yaptıktan sonra, seçtiğiniz şirketin sayfasına gider. 
+- Veriler toplandıktan sonra, bot bir sonraki sayfaya geçer ve işlemi tekrarlar.  
+- Tüm sayfalar geçildikten sonra, bot veri toplama işlemini sonlandırır ve verileri bir dosyaya kaydeder.
+
+### Doğrulama İşlemi
+- LinkedIn giriş doğrulaması manuel olarak yapılmalıdır. Giriş yaptıktan sonra, bot veri toplamaya devam eder. 
+- Doğrulama işlemi genellikle bir güvenlik kontrolüdür, bu yüzden kullanıcı girişin doğruluğunu sağlamalıdır. 
+
+### Sonuçların Kaydedilmesi
+- Çalışan bilgileri, her biri isim, iş unvanı ve lokasyon olmak üzere `employees_info.txt` dosyasına kaydedilir. Bu dosya proje dizininde yer alacaktır.
+
+### Kodunun Kullanılacağı Zaman Güncellenmesi Gereken Bölümler
+- Kodun en son güncellenme tarihi 17.12.2024 tarihidir. Linkedln'in dinamik yapıda bir web sayfası olmasından kaynaklı id'ler düzenli olarak değişmekteir. Kodu kullanmadan önce id leri kontrol edip gücellemeniz gerekmektedir. 
+- İd lere kodu çalıştırınca açılan sekmenin kaynak kodunu inceleyerek ulaşabilirsiniz.  
+Gerekli adımlar ekran resmi olarak aşağıda yer almaktadır. 
+
+   
