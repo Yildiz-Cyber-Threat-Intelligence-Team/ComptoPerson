@@ -45,7 +45,7 @@ Ana dosyayı çalıştırmak için aşağıdaki komutu terminalde kullanın:
 
 ### Kodunun Kullanılacağı Zaman Güncellenmesi Gereken Bölümler
 - Kodun en son güncellenme tarihi 17.12.2024 tarihidir. Linkedln'in dinamik yapıda bir web sayfası olmasından kaynaklı id'ler düzenli olarak değişmekteir. Kodu kullanmadan önce id leri kontrol edip gücellemeniz gerekmektedir. 
-- İd lere kodu çalıştırınca açılan sekmenin kaynak kodunu inceleyerek ulaşabilirsiniz.  
+- ID'lere kodu çalıştırınca açılan sekmenin kaynak kodunu inceleyerek ulaşabilirsiniz.  
 Gerekli adımlar ekran resmi olarak aşağıda yer almaktadır. 
 1.
 ![1](https://github.com/user-attachments/assets/d75df3d9-82c0-4350-ac12-a2f39fd11117)
@@ -84,7 +84,7 @@ To run the main file, use the following command in the terminal:
 ### Company Name Entry
 - When the project is launched, you will be asked to enter the name of the company you want to search for via the terminal.
 - If the company name consists of more than one word, you must use `-` between the words.
-- Examples: google-cloud
+- Example: google-cloud
 
 ### How the Bot Works
 - After automatically logging into LinkedIn, the bot will go to the company page you selected.
@@ -99,7 +99,7 @@ To run the main file, use the following command in the terminal:
 - Employee information, including name, job title, and location, is recorded in the file `employees_info.txt`. This file will be located in the project directory.
 
 ### Sections That Need to Be Updated When Using the Code
-- The last update date of the code is 17.12.2024. Since LinkedIn is a dynamic web page, the IDs change regularly. Before using the code, you need to check and update the IDs.
+- The last update date of the code is 17.12.2024. Since LinkedIn is a dynamic web page, the ID's change regularly. Before using the code, you need to check and update the IDs.
 - You can access the IDs by examining the source code of the tab that opens when you run the code.
 - The necessary steps are given below as a screenshot.
 
