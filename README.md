@@ -47,10 +47,14 @@ Ana dosyayı çalıştırmak için aşağıdaki komutu terminalde kullanın:
 - Kodun en son güncellenme tarihi 17.12.2024 tarihidir. Linkedln'in dinamik yapıda bir web sayfası olmasından kaynaklı id'ler düzenli olarak değişmekteir. Kodu kullanmadan önce id leri kontrol edip gücellemeniz gerekmektedir. 
 - İd lere kodu çalıştırınca açılan sekmenin kaynak kodunu inceleyerek ulaşabilirsiniz.  
 Gerekli adımlar ekran resmi olarak aşağıda yer almaktadır. 
-1. ![1](https://github.com/user-attachments/assets/d75df3d9-82c0-4350-ac12-a2f39fd11117)
-2. ![2](https://github.com/user-attachments/assets/1218ae82-3621-4849-9c3e-dafe419fa266)
-3. ![3](https://github.com/user-attachments/assets/549a1a39-80ab-496f-b697-a3ebf7db2d26)
-4. ![4](https://github.com/user-attachments/assets/744a59c5-18b3-4ffd-b190-e87103507e5b)
+1.
+![1](https://github.com/user-attachments/assets/d75df3d9-82c0-4350-ac12-a2f39fd11117)
+2.
+![2](https://github.com/user-attachments/assets/1218ae82-3621-4849-9c3e-dafe419fa266)
+3.
+![3](https://github.com/user-attachments/assets/549a1a39-80ab-496f-b697-a3ebf7db2d26)
+4.
+![4](https://github.com/user-attachments/assets/744a59c5-18b3-4ffd-b190-e87103507e5b)
 
 
 
