@@ -5,7 +5,7 @@
 Bu proje, seçilen bir şirketin çalışan bilgilerini LinkedIn üzerinden toplayarak bir .txt dosyasına aktarmayı amaçlamaktadır. 
 
 ## Özellikler
-- Otomatik bir şekilde chromium ekranı açılarak önceden config.py ‘ye girmiş olduğunuz mail ve şifre girişi gerçekleştirir. 
+- Otomatik bir şekilde chromium ekranı açılarak önceden `config.py`‘ye girmiş olduğunuz mail ve şifre girişi gerçekleştirir. 
 (Bu aşamada doğrulama kodu veya captcha işlemleri karşınıza çıkabilir. Manuel olarak geçmeniz gerekmektedir.) 
 - Seçilen şirketin çalışanlarının isim, iş unvanı ve lokasyon bilgilerini toplar.   
 - Verileri ‘employees_info.txt’ dosyasına kaydeder.   
@@ -14,13 +14,13 @@ Bu proje, seçilen bir şirketin çalışan bilgilerini LinkedIn üzerinden topl
 ### Gereksinimler
 - Python 3.9.12 veya daha yeni bir sürümünün bilgisayarınızda yüklü olması gerekmektedir. 
 - Ayrıca, Playwright kütüphanesinin kurulması gereklidir. Playwright, tarayıcı otomasyonu için kullanılan bir Python kütüphanesidir. Yüklemek için şu komutları kullanabilirsiniz: 
-     pip install playwright 
-     playwright install 
+     `pip install playwright` 
+     `playwright install` 
 
 ### LinkedIn Giriş Bilgileri
 - LinkedIn hesabınıza giriş yapmak için `config.py` dosyasını düzenlemeniz gerekmektedir. Bu dosyaya LinkedIn kullanıcı adı (email) ve şifrenizi ekleyin: 
-     LINKEDIN_USERNAME = "email_adresiniz" 
-     LINKEDIN_PASSWORD = "şifreniz"
+     `LINKEDIN_USERNAME = "email_adresiniz"` 
+     `LINKEDIN_PASSWORD = "şifreniz"`
 
 ### Çalıştırma
 Ana dosyayı çalıştırmak için aşağıdaki komutu terminalde kullanın:   
