@@ -102,6 +102,13 @@ To run the main file, use the following command in the terminal:
 - The last update date of the code is 17.12.2024. Since LinkedIn is a dynamic web page, the ID's change regularly. Before using the code, you need to check and update the IDs.
 - You can access the IDs by examining the source code of the tab that opens when you run the code.
 - The necessary steps are given below as a screenshot.
-
+1.
+![1](https://github.com/user-attachments/assets/b13830a1-491c-4b7f-86f3-226087a5e641)
+2.
+![2](https://github.com/user-attachments/assets/b7032333-47a9-45c6-b01e-836606bb39ef)
+3.
+![3](https://github.com/user-attachments/assets/e9198387-4340-427d-8d03-dc8d0c6b87c2)
+4.
+![4](https://github.com/user-attachments/assets/fc7fb7dd-8c66-49ee-ac21-219b4deedb85)
 
    
