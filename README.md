@@ -73,7 +73,7 @@ This project aims to collect employee information of a selected company from Lin
 `playwright install`
 
 ### LinkedIn Login Information
-- To log in to your LinkedIn account, you need to edit the config.py file. Add your LinkedIn username (email) and password to this file:
+- To log in to your LinkedIn account, you need to edit the `config.py` file. Add your LinkedIn username (email) and password to this file:
 `LINKEDIN_USERNAME = "your_email_address"`
 `LINKEDIN_PASSWORD = "your_password"`
 
@@ -84,7 +84,7 @@ To run the main file, use the following command in the terminal:
 ### Company Name Entry
 - When the project is launched, you will be asked to enter the name of the company you want to search for via the terminal.
 - If the company name consists of more than one word, you must use `-` between the words.
-- Example: google-cloud
+  - Example: google-cloud
 
 ### How the Bot Works
 - After automatically logging into LinkedIn, the bot will go to the company page you selected.
